@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Rooms">
+      <UniqueIdentifier>{11dcd721-9b91-4c43-b76b-8fb8829b8e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Guests">
+      <UniqueIdentifier>{f6997e6b-01a3-4f50-a630-af4260cfa458}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Users">
+      <UniqueIdentifier>{387d0a7f-091c-4eeb-9748-d70a59c8837f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\String&amp;Vector">
+      <UniqueIdentifier>{3bb554ed-da84-4666-b368-c540b18b1b1e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HotelManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ApartmentRoom.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="ConferenceRoom.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleRoom.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="LuxuryRoom.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomCollection.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomFactory.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomType.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleRoom.cpp">
+      <Filter>Source Files\Rooms</Filter>
+    </ClCompile>
+    <ClCompile Include="Reservation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HotelSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Guest.cpp">
+      <Filter>Source Files\Guests</Filter>
+    </ClCompile>
+    <ClCompile Include="GuestManager.cpp">
+      <Filter>Source Files\Guests</Filter>
+    </ClCompile>
+    <ClCompile Include="GuestType.cpp">
+      <Filter>Source Files\Guests</Filter>
+    </ClCompile>
+    <ClCompile Include="HotelUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Accountant.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="UserFactory.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Receptionist.cpp">
+      <Filter>Source Files\Users</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>Source Files\String&amp;Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ApartmentRoom.h">
+      <Filter>Source Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="ConferenceRoom.h">
+      <Filter>Source Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleRoom.h">
+      <Filter>Source Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="LuxuryRoom.h">
+      <Filter>Source Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Source Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomCollection.h">
+      <Filter>Source Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomFactory.h">
+      <Filter>Source Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomType.h">
+      <Filter>Source Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleRoom.h">
+      <Filter>Source Files\Rooms</Filter>
+    </ClInclude>
+    <ClInclude Include="Reservation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HotelSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Guest.h">
+      <Filter>Source Files\Guests</Filter>
+    </ClInclude>
+    <ClInclude Include="GuestManager.h">
+      <Filter>Source Files\Guests</Filter>
+    </ClInclude>
+    <ClInclude Include="GuestType.h">
+      <Filter>Source Files\Guests</Filter>
+    </ClInclude>
+    <ClInclude Include="HotelUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Accountant.h">
+      <Filter>Source Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Source Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Receptionist.h">
+      <Filter>Source Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Source Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="UserFactory.h">
+      <Filter>Source Files\Users</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVector.hpp">
+      <Filter>Source Files\String&amp;Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString.h">
+      <Filter>Source Files\String&amp;Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
